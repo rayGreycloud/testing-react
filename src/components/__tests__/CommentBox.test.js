@@ -18,9 +18,9 @@ afterEach(() => {
 });
 
 describe('Comment Box', () => {
-  it('should have a text area and a button', () => {
+  it('should have a text area and 2 buttons', () => {
     expect(wrapped.find('textarea').length).toEqual(1);
-    expect(wrapped.find('button').length).toEqual(1);
+    expect(wrapped.find('button').length).toEqual(2);
   });
 });
 
